@@ -1,8 +1,31 @@
-<h1 align="center"> Hi there 👋, I'm Joemar!😄 </h1> 
+<h2 align="center">
+  Welcome to Joemar's profile!
+  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28">
+</h2>
 
-<!-- ![counter](https://komarev.com/ghpvc/?username=your-joemar25&color=blueviolet&label=profile-views) -->
+<!-- Typing SVG by DenverCoder1 - https://github.com/DenverCoder1/readme-typing-svg -->
+<p align="center">
+  <a href="https://github.com/DenverCoder1/readme-typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Source+Serif+Pro&size=30&duration=3000&pause=1000&color=00DA22&center=true&vCenter=true&width=435&lines=SELECT+*+FROM+'World';+WHERE+'Someone'+LIKE+'%25You%25'">
+  </a>
+</p>
 
-<h4 align="center"> I am a Computer Science student who is passionate about learning ✨new skills✨ </h3>
+<!-- views ![counter](https://komarev.com/ghpvc/?username=your-joemar25&color=blueviolet&label=profile-views) -->
+
+<h4 align="center"> I am a Computer Science student who is passionate about learning ✨new skills✨ with practical application.</h3>
+
+
+<!-- Social icons section -->
+<p align="center">
+  <a href="https://www.youtube.com/channel/UC_PvJQ6t_qSA4V5kA8tWFgw"><img width="32px" alt="Youtube" title="Youtube" src="https://i.imgur.com/qiXu7b2.png"/></a>
+  &#8287;&#8287;&#8287;&#8287;&#8287;
+  <a href=""><img width="32px" alt="Twitter" title="Twitter" src="https://i.imgur.com/OXZM1L6.png"/></a>
+  &#8287;&#8287;&#8287;&#8287;&#8287;
+  <a href="" alt="Dev Pro Tips Discussion & Support Server"><img width="32px" src="https://i.imgur.com/OViZO8J.png"/></a>
+  &#8287;&#8287;&#8287;&#8287;&#8287;
+</p>
+
+<hr/>
 
 <h3 align="center"> 🛠️ Languages and Tools: </h3>
 
@@ -70,19 +93,13 @@
    
 </p>
 
+<img align="right" alt="Coding Meme" width="300" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.i1J7xoC97TgxsxyXOheU5wHaHa%26pid%3DApi&f=1&ipt=b4ed1e83e1699a0218bc5b4e4ba12865f2f8aa87c53957b1b72b4c5cebd7ec2f&ipo=images">
+
 <img align="right" alt="Coding Meme" width="300" src="http://i.imgur.com/iDG8sNE.gif">
 
 ### 📈 My GitHub Stats:
 
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=joemar25&theme=nightowl&hide_border=false&include_all_commits=true&count_private=true&layout=compact)</p>
-
-
-
-
-
-
-
-
 
 
 
