@@ -10,12 +10,14 @@
 
 <p>
 
-  ![](https://github-readme-stats.vercel.app/api?username=joemar25&theme=nightowl&hide_border=false&include_all_commits=true&count_private=true)<br/>
-    
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=joemar25&theme=nightowl)](https://git.io/streak-stats)<br/>
+  [![GitHub Streak](https://streak-stats.demolab.com?user=MEOW_MEOW_ME&theme=vue-dark&hide_border=true)](https://git.io/streak-stats)
+<br/>
+ 
+<br/> 
   
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=joemar25&theme=nightowl&hide_border=false&include_all_commits=true&count_private=true&layout=compact)</p>
-
+<br/>
+  
+</p>
 
 
 
