@@ -3,8 +3,18 @@
 
 <img align="right" alt="Coding Meme" width="300" src="http://i.imgur.com/iDG8sNE.gif">
 
-![counter](https://komarev.com/ghpvc/?username=your-joemar25)
+![counter](https://komarev.com/ghpvc/?username=your-joemar25&color=blueviolet&label=profile-views)
 
+
+### 📈 My GitHub Stats:
+
+<p>
+
+  ![](https://github-readme-stats.vercel.app/api?username=joemar25&theme=nightowl&hide_border=false&include_all_commits=true&count_private=true)<br/>
+    
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=joemar25&theme=nightowl)](https://git.io/streak-stats)<br/>
+  
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=joemar25&theme=nightowl&hide_border=false&include_all_commits=true&count_private=true&layout=compact)</p>
 
 
 
