@@ -97,6 +97,10 @@
 
 <img align="right" alt="Coding Meme" width="300" src="http://i.imgur.com/iDG8sNE.gif">
 
+<img align="right" alt="Coding Meme" width="300" src="https://s3.amazonaws.com/rails-camp-tutorials/blog/programming+memes/works-doesnt-work.jpg">
+
+<br/>
+
 ### 📈 My GitHub Stats:
 
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=joemar25&theme=nightowl&hide_border=false&include_all_commits=true&count_private=true&layout=compact)</p>
