@@ -82,14 +82,11 @@
   </a>
 </p>
 
-<center>
-
-  <img align="left" alt="Coding Meme" height="300" width="250" src="https://s3.amazonaws.com/rails-camp-tutorials/blog/programming+memes/works-doesnt-work.jpg">
-  <img align="right" alt="Coding Meme" height="300" width="250" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.i1J7xoC97TgxsxyXOheU5wHaHa%26pid%3DApi&f=1&ipt=b4ed1e83e1699a0218bc5b4e4ba12865f2f8aa87c53957b1b72b4c5cebd7ec2f&ipo=images">
+<p align="center">
+  <img align="left" alt="Coding Meme" height="300" width="300" src="https://s3.amazonaws.com/rails-camp-tutorials/blog/programming+memes/works-doesnt-work.jpg">
+  <img align="right" alt="Coding Meme" height="300" width="300" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.i1J7xoC97TgxsxyXOheU5wHaHa%26pid%3DApi&f=1&ipt=b4ed1e83e1699a0218bc5b4e4ba12865f2f8aa87c53957b1b72b4c5cebd7ec2f&ipo=images">
   <img align="center" alt="Coding Meme" height="300" width="300" src="http://i.imgur.com/iDG8sNE.gif">
-  
-  
-</center>
+</p>
   
 <br/>
 
