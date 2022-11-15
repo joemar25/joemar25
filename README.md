@@ -29,8 +29,7 @@
 
 <h3 align="center"> 🛠️ Languages and Tools: </h3>
 
-<center>
-
+<p align="center">
   <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/>
   </a>
   <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer">
@@ -75,22 +74,12 @@
   <a href="https://www.mathworks.com/" target="_blank" rel="noreferrer">
     <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" alt="matlab" width="40" height="40"/>
   </a>
-  <a href="https://opencv.org/" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="40" height="40"/>
-  </a>
   <a href="https://unity.com/" target="_blank" rel="noreferrer">
     <img src="https://www.vectorlogo.zone/logos/unity3d/unity3d-icon.svg" alt="unity" width="40" height="40"/>
-  </a>
-  <a href="https://flutter.dev" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="40" height="40"/>
-  </a>
-  <a href="https://cloud.google.com" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" alt="gcp" width="40" height="40"/>
   </a>
   <a href="https://www.adobe.com/products/photoshop.html?promoid=RBS7NL7F&mv=other" target="_blank" rel="noreferrer">
     <img src="https://logos-world.net/wp-content/uploads/2020/11/Adobe-Photoshop-Logo-2013-2015.png" alt="gcp" width="55" height="40"/>
   </a>
-   
 </p>
 
 <center>
