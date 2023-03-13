@@ -12,7 +12,7 @@
 
 <!-- views ![counter](https://komarev.com/ghpvc/?username=your-joemar25&color=blueviolet&label=profile-views) -->
 
-<h4 align="center"> A Computer Science (BSCS) student who is passionate about learning ✨new skills✨ with practical application.</h3>
+<h4 align="center"> A Computer Science (BSCS) student who is passionate about learning ✨acquiring new skills✨ with practical application.</h3>
 
 
 <!-- Social icons section -->
