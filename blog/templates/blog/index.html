@@ -2,11 +2,27 @@
 
 {% block content %}
 
-    Index
+Index
 
-    {% for blog in blogs %}
-    <h2>{{ blog.title }}</h2>
-    <p>{{ blog.contents }}</p>
-    {% endfor %}
+<table>
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Contents</th>
+            <th>Edit</th>
+            <th>Delete</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for blog in blogs %}
+        <tr>
+            <td>{{ blog.title }}</td>
+            <td>{{ blog.contents }}</td>
+            <td><a href="{% url 'update' blog.id %}">Edit</a></td>
+            <td><a href="{% url 'delete' blog.id %}">Delete</a></td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
 
 {% endblock content %}

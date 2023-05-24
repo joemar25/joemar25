@@ -21,5 +21,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
 
     # mar - We will list all available routes in website here using apps we created
-    path('', include('blog.urls')),
+    path('blogs/', include('blog.urls')),
+    path('', include('portfolio.urls')),
 ]

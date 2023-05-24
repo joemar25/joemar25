@@ -40,6 +40,7 @@ INSTALLED_APPS = [
 
     # mar - my apps
     'blog.apps.BlogConfig',
+    'portfolio.apps.PortfolioConfig',
 ]
 
 MIDDLEWARE = [
