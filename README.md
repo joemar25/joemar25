@@ -100,7 +100,7 @@
 
 
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=joemar25)](https://github.com/joemar25/github-readme-stats)
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=joemar25&show_icons=true&theme=transparent)](https://github.com/joemar25/github-readme-stats)
 
 
 
