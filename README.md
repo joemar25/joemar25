@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <h2 align="center">
   Welcome to Joemar's profile!
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28">
@@ -111,3 +112,16 @@
 
 <!--  https://mar-mar-mar.onrender.com -->
 
+=======
+<picture>
+<source
+  srcset="https://github-readme-stats.vercel.app/api?username=joemar25&show_icons=true&theme=dark"
+  media="(prefers-color-scheme: dark)"
+/>
+<source
+  srcset="https://github-readme-stats.vercel.app/api?username=joemar25&show_icons=true"
+  media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+/>
+<img src="https://github-readme-stats.vercel.app/api?username=joemar25&show_icons=true" />
+</picture>
+>>>>>>> 6969641baa79b8d6dfff14870dc0ac64bb251ba2
