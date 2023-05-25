@@ -2,6 +2,7 @@
 __pycache__/
 *.py[cod]
 *$py.class
+*pyc
 
 # Caches
 *.cache
@@ -17,6 +18,9 @@ venv/
 /old
 *migrations
 *blog_img
+node_modules/
+Documentations/
+CACHE/
 
 # Database
 *.sqlite3
