@@ -2,26 +2,24 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="Description" content="Joemar's website template" />
-    <meta
-      name="Keywords"
-      content="personal_portfolio, joemar, template, html, css, js, django"
-    />
+    <meta name="Keywords" content="personal_portfolio, joemar, template, html, css, js, django" />
     <meta name="Author" content="joemar25" />
     <title>{% block title %} {% endblock %}</title>
-    <link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}" />
   </head>
+
   <body>
-    
     <!-- {% include 'components/navigation.html' %} -->
     {% block content %} {% endblock %}
-    
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script src="{% static 'js/main.js' %}"></script>
-  
   </body>
+
 </html>
