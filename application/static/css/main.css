@@ -13,49 +13,15 @@
   font-style: normal;
 }
 
-/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
 
-body {
-  margin: 0;
-}
-
-/* article,
-aside,
-details,
-figcaption,
-figure,
-footer, */
-/* hgroup,
-main,
-menu,
-nav,
-summary, */
 header,
 section {
   display: block;
-}
-
-audio,
-canvas,
-progress,
-video {
-  display: inline-block;
-  vertical-align: baseline;
-}
-
-audio:not([controls]) {
-  display: none;
-  height: 0;
-}
-
-[hidden],
-template {
-  display: none;
 }
 
 a {
@@ -67,47 +33,9 @@ a:hover {
   outline: 0;
 }
 
-abbr[title] {
-  border-bottom: 1px dotted;
-}
-
-b,
-strong {
-  font-weight: bold;
-}
-
-dfn {
-  font-style: italic;
-}
-
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
-}
-
-mark {
-  background: #ff0;
-  color: #000;
-}
-
-small {
-  font-size: 80%;
-}
-
-sub,
-sup {
-  font-size: 75%;
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline;
-}
-
-sup {
-  top: -0.5em;
-}
-
-sub {
-  bottom: -0.25em;
 }
 
 img {
@@ -118,30 +46,8 @@ svg:not(:root) {
   overflow: hidden;
 }
 
-figure {
-  margin: 1em 40px;
-}
-
-hr {
-  box-sizing: content-box;
-  height: 0;
-}
-
-pre {
-  overflow: auto;
-}
-
-code,
-kbd,
-pre,
-samp {
-  font-family: monospace, monospace;
-  font-size: 1em;
-}
-
 button,
 input,
-optgroup,
 select,
 textarea {
   color: inherit;
@@ -200,23 +106,8 @@ input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
-fieldset {
-  border: 1px solid #c0c0c0;
-  margin: 0 2px;
-  padding: 0.35em 0.625em 0.75em;
-}
-
-legend {
-  border: 0;
-  padding: 0;
-}
-
 textarea {
   overflow: auto;
-}
-
-optgroup {
-  font-weight: bold;
 }
 
 table {
@@ -277,6 +168,7 @@ th {
 }
 
 body {
+  margin: 0;
   background-color: #fff;
   font-size: 16px;
   line-height: 1.6;
@@ -284,6 +176,7 @@ body {
   color: #111;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: #fff498;
 }
 
 @media (max-width: 415px) {
@@ -316,15 +209,6 @@ img::-moz-selection {
   background: transparent;
 }
 
-body {
-  -webkit-tap-highlight-color: #fff498;
-}
-
-.gigantic,
-.huge,
-.large,
-.bigger,
-.big,
 h1,
 h2,
 h3,
@@ -335,61 +219,33 @@ h6 {
   font-weight: bold;
 }
 
-.gigantic {
-  font-size: 110px;
-  line-height: 1.09;
-  letter-spacing: -2px;
-}
-
-.huge,
 h1 {
   font-size: 68px;
   line-height: 1.05;
   letter-spacing: -1px;
 }
 
-.large,
 h2 {
   font-size: 42px;
   line-height: 1.14;
 }
 
-.bigger,
 h3 {
   font-size: 26px;
   line-height: 1.38;
 }
 
-.big,
 h4 {
   font-size: 22px;
   line-height: 1.38;
-}
-
-.small,
-small {
-  font-size: 10px;
-  line-height: 1.2;
 }
 
 p {
   margin: 0 0 20px 0;
 }
 
-em {
-  font-style: italic;
-}
-
 strong {
   font-weight: bold;
-}
-
-hr {
-  border: solid #ddd;
-  border-width: 1px 0 0;
-  clear: both;
-  margin: 10px 0 30px;
-  height: 0;
 }
 
 svg {
