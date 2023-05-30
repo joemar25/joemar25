@@ -3,10 +3,12 @@
 @font-face {
   font-family: "LMRomanSlant10";
   src: url("fonts/lmromanslant10-regular-webfont.eot");
-  src: url("fonts/lmromanslant10-regular-webfont.eot?#iefix") format("embedded-opentype"),
+  src: url("fonts/lmromanslant10-regular-webfont.eot?#iefix")
+      format("embedded-opentype"),
     url("fonts/lmromanslant10-regular-webfont.woff") format("woff"),
     url("fonts/lmromanslant10-regular-webfont.ttf") format("truetype"),
-    url("fonts/lmromanslant10-regular-webfont.svg#latin_modern_roman_slante10Rg") format("svg");
+    url("fonts/lmromanslant10-regular-webfont.svg#latin_modern_roman_slante10Rg")
+      format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -22,19 +24,19 @@ body {
   margin: 0;
 }
 
-article,
+/* article,
 aside,
 details,
 figcaption,
 figure,
-footer,
-header,
-hgroup,
+footer, */
+/* hgroup,
 main,
 menu,
 nav,
-section,
-summary {
+summary, */
+header,
+section {
   display: block;
 }
 
@@ -420,7 +422,6 @@ svg path {
 }
 
 @media (max-width: 640px) {
-
   #hero svg,
   #about svg,
   #featured svg,
@@ -1387,7 +1388,6 @@ svg path {
 }
 
 @media (max-width: 640px) {
-
   #contact .wrapper form input[type="email"],
   #contact .wrapper form input[type="text"] {
     width: 100%;
