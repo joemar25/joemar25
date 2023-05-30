@@ -25,6 +25,7 @@ CACHE/
 
 # my choice
 profile.json
+*.txt
 
 # Database
 *.sqlite3
