@@ -19,16 +19,26 @@ def get_blog_post(pk):
 
 def get_blog_context(blog):
     return {
-        'id': blog.id,
-        'title': blog.title,
-        'contents': blog.contents,
-        'author': blog.author,
-        'category': blog.category,
-        'tags': blog.tags,
-        'thumbnail': blog.thumbnail,
-        'images': blog.images,
-        'updated': blog.updated,
-        'created': blog.created,
+        # 'id': blog.id,
+        # 'title': blog.title,
+        # 'contents': blog.contents,
+        # 'author': blog.author,
+        # 'category': blog.category,
+        # 'tags': blog.tags,
+        # 'thumbnail': blog.thumbnail,
+        # 'images': blog.images,
+        # 'updated': blog.updated,
+        # 'created': blog.created,
+        'id': "blog.id",
+        'title': "blog.title",
+        'contents': "blog.contents",
+        'author': "blog.author",
+        'category': "blog.category",
+        'tags': "blog.tags",
+        'thumbnail': "blog.thumbnail",
+        'images': "blog.images",
+        'updated': "blog.updated",
+        'created': "blog.created",
     }
 
 def update(request, pk):

@@ -1,0 +1,170 @@
+GLOBAL VAR
+    Date Format: MM-DD-YYYY TT:SS__
+    WEB FRAMEWORK = DJANGO -> https://www.djangoproject.com/
+    CSS = TAILWIND, FLOWBITE -> https://flowbite.com/docs/getting-started/django/
+    TUTORIAL = Python Django 7 Hour Course
+
+
+
+
+
+
+
+
+
+VS CODE extension added
+    Auto Rename Tag
+
+
+
+
+
+
+
+
+IDEAS
+05-24-2023 10:20pm: A website that will dynamically change color pallete
+05-24-2023 10:43pm: Have blog posting area -> id blog content images? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+TODO
+Have a color system cycle every (n time)
+Put your experiences in Job, Hobbies, Likes, Achievements
+Last na ung css or designs
+Can perform CRUD for my blog posts
+Authentication just for me
+Deploy on the web: https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
+Databse
+   Me -> User -> Blogs (images as string location)
+   images on cloud
+
+
+
+
+
+
+LEARNINGS:
+
+05-24-2023 10:43pm.
+
+    Make sure that the python version you are using has the pip install venv  
+
+    Command for creating a virtual environment in python
+        python3 -m venv .venv or python -m venv .venv
+        source .venv/bin/activate or .venv/Scripts/activate
+        deactivate
+
+    Intalling Django
+        python -m pip install Django
+
+    Creating a Django App
+        django-admin startproject <app_name>
+
+    Access Command (Learned)
+        django-admin
+        - is used to get all commands available in django
+        - on the settings.py inside joemar25 folder. it is the heart
+
+    Running the Server
+        python manage.py runserver
+    
+    Create App
+        python manage.py startapp <app-name>
+         - by default this will put the application to the BASE
+         - can be tricky at first on navigating on creating the application on a folder
+
+            on application -> python ../manage.py startapp blogs
+            on application/apps -> python ../../manage.py startapp blogs
+            on application/apps -> python ../../manage.py startapp portfolio
+
+         - creating a app means this will not mean you can use it yet
+         - you need to register that to the joemar25/settings.py -> INSTALLED_APPS
+         - this will open up the views which the clients will see
+    
+    Database Migration
+        python manage.py migrate
+        - this will allow to migrate the database
+        - in this stage you must update the model.py that suits your needs
+
+        python -m pip install Pillow
+        - if you were using image or videos
+
+        python manage.py makemigrations
+        - this is the setting up stage before the real migration to the db
+        python manage.py migrate
+
+        python manage.py createsuperuser
+        - by now you can create your own user account for admin in django
+        - login in /admin -> joemar, joemar000, 06jo!
+        - use CRUD operation
+
+        ------------------------------
+        tricky to have db on _root
+            python manage.py makemigrations blogs
+            python manage.py migrate blog
+
+    Using flowbite
+        python -m pip install django-compressor
+        - configure settings.py and add compressor
+
+
+
+`
+
+
+
+
+
+
+RANDOM
+https://vercel.com/dashboard -> for read-me-stats
+
+
+
+
+
+
+
+
+code structure
+    application
+    - _apps
+        - blogs
+        - portfolio
+
+    - _root               # the heart of the application
+        - database        # contains the db file
+
+    - static              # constains static files
+        - css
+        - img
+        - js
+
+    - templates           # contains base html which followed by all webpages
+
+    manage.py             # main driver
+
+
+
+
+
+
+
+
+
+
+
+
+todo
+    install -> python -m pip install Pillow
