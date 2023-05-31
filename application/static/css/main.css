@@ -26,6 +26,7 @@ section {
 
 a {
   background-color: transparent;
+  color: #0077cc;
 }
 
 a:active,
@@ -97,21 +98,11 @@ input[type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
 
-input[type="search"] {
-  box-sizing: content-box;
-}
-
-input[type="search"]::-webkit-search-cancel-button,
-input[type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none;
-}
-
 textarea {
   overflow: auto;
 }
 
 table {
-  border-collapse: collapse;
   border-spacing: 0;
 }
 
@@ -168,12 +159,13 @@ th {
 }
 
 body {
+  background-color: #f7f7f7;
+  color: #333;
+
   margin: 0;
-  background-color: #fff;
   font-size: 16px;
   line-height: 1.6;
   font-family: "LMRomanSlant10", serif;
-  color: #111;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: #fff498;
@@ -215,7 +207,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #222;
+  color: #333333;
   font-weight: bold;
 }
 
