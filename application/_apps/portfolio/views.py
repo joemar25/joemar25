@@ -15,6 +15,7 @@ def load_json():
         'school': data['school'],
         'likes': data['likes'],
         'dislikes': data['dislikes'],
+        'contact_me_description': data['contact_me_description'],
     }
 
 def index(request):
