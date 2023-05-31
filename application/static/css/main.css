@@ -748,6 +748,11 @@ strong {
   padding: 0;
 }
 
+/* blogs */
+#blogs {
+  padding: 0;
+}
+
 /* 1180px */
 @media (max-width: 1180px) {
   #welcome-title .wrapper .welcome:after {

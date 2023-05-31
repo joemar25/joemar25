@@ -6,13 +6,14 @@ def load_json():
     with open(os.path.join(settings.BASE_DIR, '_root', 'database', 'profile.json'), encoding='utf-8') as f:
         data = json.load(f)
     return {
-        'full_name': data['first_name'] + ' ' + data['middle_initial'] + ' ' + data['last_name'],
+        'full_name': data['first_name'] +  ' ' + data['last_name'],
         'first_name': data['first_name'] + "'s",
         'introduction': data['introduction'],
         'description': data['description'],
         'github_link': data['github_link'],
         'facebook_link': data['facebook_link'],
         'contact_me_description': data['contact_me_description'],
+        'school_note': data['school_note'],
         'school': data['school'],
         'likes': data['likes'],
         'dislikes': data['dislikes'],
