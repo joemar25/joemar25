@@ -3,11 +3,11 @@ from django.conf import settings
 from django.shortcuts import render
 
 def load_json():
-    with open(os.path.join(settings.BASE_DIR, '_root', 'database', 'profile.json')) as f:
+    with open(os.path.join(settings.BASE_DIR, '_root', 'database', 'profile.json'), encoding='utf-8') as f:
         data = json.load(f)
     return {
-        'full_name': data['first'] + ' ' + data['middle_initial'] + ' ' + data['last'],
-        'first_name': data['first'] + "'s",
+        'full_name': data['first_name'] + ' ' + data['middle_initial'] + ' ' + data['last_name'],
+        'first_name': data['first_name'] + "'s",
         'introduction': data['introduction'],
         'description': data['description'],
         'github_link': data['github_link'],

@@ -7,27 +7,97 @@
 {% block content %}
 
 <section id="welcome-title" class="content-container">
-    <div style="height: 200px;"></div>
+        <header>
+            <div class="nav-toggle">
+                <p>Menu</p>
+                <span></span>
+            </div>
+            <ul class="nav">
+                <li><a href="#welcome-title">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experiences">Experiences</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </header>
+    
+        <div class="wrapper">
+            <div class="welcome">
+                <h1><strong>{{ first_name }}</strong> Portfolio</h1>
+                <p> {{ introduction }}</p>
+                <div class="social">
+                    <a href="{{ facebook_link }}" target="_blank"><i class="icon-facebook"></i></a>
+                    <a href="{{ github_link }}" target="_blank"><i class="icon-pinterest-p"></i></a>
+                    <a href="#" target="_blank"><i class="icon-instagram"></i></a>
+                    <a href="#" target="_blank"><i class="icon-twitter"></i></a>
+                </div>
+            </div>
+            <div class="profile-img">
+                <img src="{% static 'img/profile-img.png' %}" alt="Joemar" />
+            </div>
+        </div>
 </section>
+
+
 
 <section id="about" class="content-container">
-    <div style="height: 100px;"></div>
+    <div class="wrapper">
+        <div class="camera">
+            <img src="{% static 'img/camera.png' %}" alt="Camera" />
+        </div>
+        <div class="title">
+            <h2>My name is <strong>{{ full_name }}</strong></h2>
+            <p> {{ description }} </p>
+        </div>
+    </div>
 </section>
 
+
+
+<!-- education and achievements -->
 <section id="education" class="content-container">
-    <div style="height: 500px;"></div>
+    <div class="wrapper">
+        {% for school in school %}
+        <div>
+            <h3>{{ school.level }}</h3>
+            <p>{{ school.year_start }} - {{ school.year_end }}</p>
+            <p>{{ school.story }}</p>
+        </div>
+        {% endfor %}
+    </div>
 </section>
+
+
 
 <section id="projects" class="content-container">
-    <div style="height: 50px;"></div>
+    <h1 style="text-align: center;">Projects</h1>
 </section>
 
-<section id="achievements-experiences" class="content-container">
-    <div style="height: 30px;"></div>
+
+
+<section id="experiences" class="content-container">
+    <h1 style="text-align: center;">Experiences</h1>
 </section>
+
+
 
 <section id="contact" class="content-container">
-    <div style="height: 30px;"></div>
+    <div class="wrapper">
+        <div class="title">
+            <h2><strong>Contact</strong> Me</h2>
+            <p>
+                {{ contact_me_description }}
+            </p>
+        </div>
+        <form>
+            <input type="email" placeholder="Your Email" />
+            <input type="text" placeholder="Subject" />
+            <textarea placeholder="Message"></textarea>
+            <input type="submit" value="Send Message" />
+        </form>
+    </div>
+    <p class="copyright">&copy; Joemar 2023</p>
 </section>
 
 {% endblock content %}
