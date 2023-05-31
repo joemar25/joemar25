@@ -71,13 +71,29 @@
 
 
 <section id="projects" class="content-container">
-    <h1 style="text-align: center;">Projects</h1>
+    {% for project in projects %}
+    <div>
+        <h3>{{ project.name }}</h3>
+    </div>
+    {% endfor %}
 </section>
 
 
 
 <section id="experiences" class="content-container">
-    <h1 style="text-align: center;">Experiences</h1>
+    Software Used
+    <ol>
+    {% for app in app_experties %}
+        <li>{{ app.name }} | {{ app.score }}</li>
+    {% endfor %}
+    </ol>
+    
+    Familiar Languages
+    <ol>
+    {% for lang in known_languages %}
+        <li>{{ lang.name }} | {{ lang.score }}</li>
+    {% endfor %}
+    </ol>
 </section>
 
 

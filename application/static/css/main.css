@@ -688,6 +688,11 @@ strong {
   background-color: var(--color-text-primary-light);
 }
 
+#contact .wrapper form input[type="submit"]:hover {
+  color: var(--color-text-secondary-light);
+  background-color: var(--color-support-light);
+}
+
 #contact .copyright {
   position: absolute;
   bottom: 10px;
