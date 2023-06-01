@@ -190,15 +190,6 @@ body {
   -webkit-tap-highlight-color: var(--color-select-light);
 }
 
-.content-container {
-  position: relative;
-  width: 1440px;
-  max-width: 95%;
-  margin: 40px auto;
-  background-color: var(--color-background-support-light);
-  overflow: hidden;
-}
-
 ::-moz-selection {
   background: var(--color-select-light);
 }
@@ -229,6 +220,7 @@ h3,
 h4,
 h5,
 h6 {
+  font-family: "Raleway", Helvetica, sans-serif;
   color: var(--color-support-light);
   font-weight: bold;
 }
@@ -343,29 +335,27 @@ strong {
 
 .nav li a:hover {
   background-color: var(--color-text-primary-light);
-  color: var(--color-background-primary-light)
+  color: var(--color-background-primary-light);
 }
 
+/* sections global handler */
+.content-container {
+  position: relative;
+  width: 1440px;
+  max-width: 95%;
+  margin: 40px auto;
+  background-color: var(--color-background-support-light);
+  overflow: hidden;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* about */
-.wrapper {
+#welcome-title .wrapper,
+#about .wrapper,
+#education .wrapper,
+#projects .wrapper,
+#experiences .wrapper,
+#blogs .wrapper,
+#contact .wrapper {
+  padding: 100px;
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -380,37 +370,10 @@ strong {
   align-items: center;
 }
 
-#about .wrapper .camera {
-  width: 45%;
-}
-
-#about .wrapper .camera img {
-  width: 85%;
-}
-
-#about .wrapper .title {
-  width: 55%;
-}
-
-#about .wrapper .title h2 {
-  margin-top: 0;
-  margin-bottom: 30px;
-  font-size: 42px;
-  font-family: "Raleway", Helvetica, sans-serif;
-  font-weight: 100;
-}
-
-#about .wrapper .title h2:before {
-  content: "";
-  position: relative;
-  bottom: 15px;
-  display: inline-block;
-  height: 1px;
-}
-
-#about .wrapper .title p {
-  max-width: 600px;
-  margin-bottom: 45px;
+/* welcome-title */
+#welcome-title .wrapper {
+  padding-top: 100px;
+  padding-bottom: 0;
 }
 
 #welcome-title .wrapper .welcome .social {
@@ -446,7 +409,6 @@ strong {
   background-color: var(--color-support-light);
 }
 
-/* Welcome Title */
 #welcome-title header {
   position: absolute;
   left: 50%;
@@ -550,8 +512,8 @@ strong {
   opacity: 0.95;
 }
 
-/* Contact */
-#contact .wrapper {
+/* about */
+#about .wrapper {
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -564,6 +526,62 @@ strong {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+}
+
+#about .wrapper .object {
+  width: 45%;
+}
+
+#about .wrapper .object img {
+  width: 85%;
+}
+
+#about .wrapper .title {
+  width: 55%;
+}
+
+#about .wrapper .title h2 {
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-size: 42px;
+  font-weight: 100;
+}
+
+#about .wrapper .title h2:before {
+  content: "";
+  position: relative;
+  bottom: 15px;
+  display: inline-block;
+  height: 1px;
+}
+
+#about .wrapper .title p {
+  max-width: 600px;
+  margin-bottom: 45px;
+}
+
+/* education */
+#education {
+  padding: 0;
+}
+
+/* projects */
+#projects {
+  padding: 0;
+}
+
+/* experiences */
+#experiences {
+  padding: 0;
+}
+
+/* blogs */
+#blogs {
+  padding: 0;
+}
+
+/* contact */
+#contact .wrapper {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -646,6 +664,11 @@ strong {
   outline: none;
 }
 
+#contact .wrapper form input[type="email"]::placeholder,
+#contact .wrapper form input[type="text"]::placeholder {
+  text-align: center;
+}
+
 #contact .wrapper form textarea {
   width: 100%;
   height: 90px;
@@ -655,6 +678,11 @@ strong {
   border-radius: 0;
   background: var(--color-transparent);
   resize: none;
+}
+
+#contact .wrapper form textarea::placeholder {
+  padding-top: 30px;
+  text-align: center;
 }
 
 #contact .wrapper form textarea::-webkit-input-placeholder {
@@ -704,226 +732,13 @@ strong {
   font-size: 12px;
 }
 
-/* Featured */
-#education .wrapper .title {
-  width: 45%;
-}
-
-#education .wrapper .title:after {
-  content: "";
-  display: inline-block;
-  width: 1px;
-  height: 70px;
-  background-color: var(--color-text-primary-light);
-}
-
-#education .wrapper .title h2 {
-  margin-top: 0;
-  margin-bottom: 30px;
-  font-size: 42px;
-  font-family: "Raleway", Helvetica, sans-serif;
-  font-weight: 100;
-}
-
-#education .wrapper .title p {
-  max-width: 400px;
-  margin-bottom: 30px;
-}
-
-#education .wrapper .education {
-  width: 55%;
-}
-
-#education .wrapper .education img {
-  width: 100%;
-}
-
-/* projects */
-#projects {
-  padding: 0;
-}
-
-/* experiences */
-#experiences {
-  padding: 0;
-}
-
-/* blogs */
-#blogs {
-  padding: 0;
-}
-
-/* 1180px */
-@media (max-width: 1180px) {
-  #welcome-title .wrapper .welcome:after {
-    display: none;
-  }
-
-  #welcome-title .wrapper .welcome p {
-    margin-bottom: 0;
-  }
-}
-
-/* 640px */
-@media (max-width: 640px) {
-  #about .wrapper .title h2 {
-    margin-bottom: 20px;
-    font-size: 30px;
-  }
-
-  #about .wrapper .title {
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    -ms-grid-row-align: center;
-    align-items: center;
-    text-align: center;
-  }
-
-  #welcome-title .wrapper .welcome h1 {
-    margin-bottom: 20px;
-    font-size: 30px;
-  }
-
-  #welcome-title .wrapper .welcome {
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    -ms-grid-row-align: center;
-    align-items: center;
-    text-align: center;
-  }
-
-  #contact .wrapper .title h2 {
-    margin-bottom: 20px;
-    font-size: 30px;
-  }
-
-  #contact .wrapper form input[type="email"],
-  #contact .wrapper form input[type="text"] {
-    width: 100%;
-    margin-bottom: 10px;
-  }
-
-  #contact .wrapper form textarea {
-    margin: 0 0 10px 0;
-  }
-
-  #education .wrapper .title h2 {
-    margin-bottom: 20px;
-    font-size: 30px;
-  }
-
-  #education .wrapper .title {
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    -ms-grid-row-align: center;
-    align-items: center;
-    text-align: center;
-  }
-}
-
-/* 1023 */
+/* responsive */
 @media (max-width: 1023px) {
-  #about .wrapper .camera {
+  #about .wrapper .object {
     display: none;
-  }
-
-  #about .wrapper .title {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    width: 100%;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-align: end;
-    -webkit-align-items: flex-end;
-    -ms-flex-align: end;
-    align-items: flex-end;
-    text-align: right;
-  }
-
-  #about .wrapper .title h2:before {
-    display: none;
-  }
-
-  #welcome-title .wrapper .welcome {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    width: 100%;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-align: end;
-    -webkit-align-items: flex-end;
-    -ms-flex-align: end;
-    align-items: flex-end;
-    text-align: right;
   }
 
   #welcome-title .wrapper .profile-img {
     display: none;
   }
-
-  #education .wrapper .title {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    width: 100%;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-align: end;
-    -webkit-align-items: flex-end;
-    -ms-flex-align: end;
-    align-items: flex-end;
-    text-align: right;
-  }
-
-  #education .wrapper .title:after {
-    display: none;
-  }
-
-  #education .wrapper .title p {
-    margin-bottom: 0;
-  }
-
-  #education .wrapper .education {
-    display: none;
-  }
-}
-
-/* 415px */
-@media (max-width: 415px) {
-  body {
-    font-size: 14px;
-  }
-}
-
-/* 768px */
-@media (max-width: 768px) {
-  .content-container {
-    margin: 15px auto;
-  }
-}
-
-.wrapper {
-  padding: 100px;
-}
-
-#welcome-title .wrapper {
-  padding-top: 100px;
-  padding-bottom: 0;
 }

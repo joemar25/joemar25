@@ -18,15 +18,15 @@
             <li><a href="#education">Education</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#experiences">Experiences</a></li>
-            <li><a href="#blogs">Experiences</a></li>
+            <li><a href="#blogs">Blogs</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </header>
 
     <div class="wrapper">
         <div class="welcome">
-            <h1><strong>{{ first_name }}</strong> Portfolio</h1>
-            <p> {{ introduction }}</p>
+            <h1><strong> {{ first_name }} </strong> Portfolio</h1>
+            <p> {{ introduction }} </p>
             <div class="social">
                 <a href="{{ facebook_link }}" target="_blank"><i class="icon-facebook"></i></a>
                 <a href="{{ github_link }}" target="_blank"><i class="icon-pinterest-p"></i></a>
@@ -44,11 +44,11 @@
 
 <section id="about" class="content-container">
     <div class="wrapper">
-        <div class="camera">
-            <img src="{% static 'img/camera.png' %}" alt="Camera" />
+        <div class="object">
+            <img src="{% static 'img/object.png' %}" alt="Camera" />
         </div>
         <div class="title">
-            <h2>My name is <strong>{{ full_name }}</strong></h2>
+            <h2>My name is<strong> {{ full_name }} </strong></h2>
             <p> {{ description }} </p>
         </div>
     </div>
@@ -61,50 +61,60 @@
     <div class="wrapper">
         {% for school in school %}
         <div>
-            <h3>{{ school.level }}</h3>
-            <p>{{ school.year_start }} - {{ school.year_end }}</p>
-            <p>{{ school.story }}</p>
+            <h3> {{ school.level }} </h3>
+            <p> {{ school.year_start }} - {{ school.year_end }} </p>
+            <p> {{ school.story }} </p>
         </div>
         {% endfor %}
+        {{ school_note }}
     </div>
-    {{ school_note }}
 </section>
 
 
 
 <!-- projects and blogs -->
 <section id="projects" class="content-container">
-    <!-- blogs -->
-    <h5> Ungraduate Projects </h5>
-    {% for project in projects %}
-    <div>
-        {{ project.name }} | {{ project.link }}
+    <div class="wrapper">
+        <h5> Ungraduate Projects </h5>
+        {% for project in projects %}
+        <div> {{ project.name }} | {{ project.link }} </div>
+        {% endfor %}
     </div>
-    {% endfor %}
 </section>
 
 
 
 <section id="experiences" class="content-container">
-    Software Used
-    <ol>
-        {% for app in app_experties %}
-        <li>{{ app.name }} | {{ app.score }}</li>
-        {% endfor %}
-    </ol>
+    <div class="wrapper">
+        Software Used
+        <ol>
+            {% for app in app_experties %}
+            <li> {{ app.name }} | {{ app.score }} </li>
+            {% endfor %}
+        </ol>
 
-    Familiar Languages
-    <ol>
-        {% for lang in known_languages %}
-        <li>{{ lang.name }} | {{ lang.score }}</li>
-        {% endfor %}
-    </ol>
+        Familiar Languages
+        <ol>
+            {% for lang in known_languages %}
+            <li> {{ lang.name }} | {{ lang.score }} </li>
+            {% endfor %}
+        </ol>
+
+        Attributes
+        <ol>
+            {% for attr in attributes %}
+            <li> {{ attr }} </li>
+            {% endfor %}
+        </ol>
+    </div>
 </section>
 
 
 
 <section id="blogs" class="content-container">
-    <h5> Blogs </h5>
+    <div class="wrapper">
+        <h5> Blogs </h5>
+    </div>
 </section>
 
 
