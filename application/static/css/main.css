@@ -23,9 +23,7 @@
 
 @font-face {
   font-family: "LMRomanSlant10";
-  src: url("fonts/lmromanslant10-regular-webfont.eot");
-  src: url("fonts/lmromanslant10-regular-webfont.eot?#iefix")
-      format("embedded-opentype"),
+  src: url("fonts/lmromanslant10-regular-webfont.eot"),
     url("fonts/lmromanslant10-regular-webfont.woff") format("woff"),
     url("fonts/lmromanslant10-regular-webfont.ttf") format("truetype"),
     url("fonts/lmromanslant10-regular-webfont.svg#latin_modern_roman_slante10Rg")
@@ -39,30 +37,11 @@ html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-}
-
-header,
-section {
-  display: block;
-}
-
-a {
-  background-color: var(--color-transparent);
-  color: var(--color-text-primary);
-}
-
-a:active,
-a:hover {
-  outline: 0;
-}
-
-h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
+  user-select: none;
 }
 
 img {
-  border: 0;
+  user-drag: none;
 }
 
 button,
@@ -74,71 +53,8 @@ textarea {
   margin: 0;
 }
 
-button {
-  overflow: visible;
-}
-
-button,
-select {
-  text-transform: none;
-}
-
-button,
-html input[type="button"],
-input[type="reset"],
-input[type="submit"] {
-  cursor: pointer;
-}
-
-button[disabled],
-html input[disabled] {
-  cursor: default;
-}
-
-button::-moz-focus-inner,
-input::-moz-focus-inner {
-  border: 0;
-  padding: 0;
-}
-
-input {
-  line-height: normal;
-}
-
-input[type="checkbox"],
-input[type="radio"] {
-  box-sizing: border-box;
-  padding: 0;
-}
-
-input[type="number"]::-webkit-inner-spin-button,
-input[type="number"]::-webkit-outer-spin-button {
-  height: auto;
-}
-
 textarea {
-  overflow: auto;
-}
-
-table {
-  border-spacing: 0;
-}
-
-td,
-th {
-  padding: 0;
-}
-
-/* icons */
-@font-face {
-  font-family: "icomoon";
-  src: url("fonts/icomoon.eot?3hi6ws");
-  src: url("fonts/icomoon.eot?3hi6ws#iefix") format("embedded-opentype"),
-    url("fonts/icomoon.ttf?3hi6ws") format("truetype"),
-    url("fonts/icomoon.woff?3hi6ws") format("woff"),
-    url("fonts/icomoon.svg?3hi6ws#icomoon") format("svg");
-  font-weight: normal;
-  font-style: normal;
+  resize: none;
 }
 
 [class^="icon-"],
@@ -180,38 +96,19 @@ th {
 body {
   background-color: var(--color-background-primary-light);
   color: var(--color-support-light);
-
   font-family: "LMRomanSlant10", serif;
   font-size: 16px;
   line-height: 1.6;
-
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: var(--color-select-light);
 }
 
-::-moz-selection {
-  background: var(--color-select-light);
-}
-
-::selection {
-  background: var(--color-select-light);
-}
-
-::-moz-selection {
-  background: var(--color-select-light);
-}
-
+::selection,
+::-moz-selection,
+img::selection,
 img::-moz-selection {
-  background: var(--color-transparent);
-}
-
-img::selection {
-  background: var(--color-transparent);
-}
-
-img::-moz-selection {
-  background: var(--color-transparent);
+  background: var(--color-select-light);
 }
 
 h1,
@@ -236,14 +133,14 @@ h2 {
   line-height: 1.14;
 }
 
-h3 {
+h3,
+h4 {
   font-size: 26px;
   line-height: 1.38;
 }
 
 h4 {
   font-size: 22px;
-  line-height: 1.38;
 }
 
 p {
@@ -260,19 +157,9 @@ strong {
   position: absolute;
   top: 75px;
   right: 0;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
   width: 100px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
   justify-content: center;
   margin: 0;
   padding: 0;
@@ -281,14 +168,12 @@ strong {
   border: 1px solid var(--color-support-light);
   opacity: 0;
   z-index: 10;
-  -webkit-transition: opacity 0.3s ease-in-out, visibility 0s 0.3s;
   transition: opacity 0.3s ease-in-out, visibility 0s 0.3s;
 }
 
 .nav.open {
   visibility: visible;
   opacity: 1;
-  -webkit-transition: opacity 0.3s ease-in-out;
   transition: opacity 0.3s ease-in-out;
 }
 
@@ -297,7 +182,6 @@ strong {
   position: absolute;
   top: -12px;
   left: 50%;
-  -webkit-transform: translateX(-50%) rotate(45deg);
   transform: translateX(-50%) rotate(45deg);
   width: 25px;
   height: 25px;
@@ -329,7 +213,6 @@ strong {
   font-family: "Raleway", Helvetica, sans-serif;
   text-transform: uppercase;
   text-decoration: none;
-  -webkit-transition: background-color 0.2s ease-in-out;
   transition: background-color 0.2s ease-in-out;
 }
 
@@ -348,7 +231,7 @@ strong {
   overflow: hidden;
 }
 
-#welcome-title .wrapper,
+#home .wrapper,
 #about .wrapper,
 #education .wrapper,
 #projects .wrapper,
@@ -357,43 +240,30 @@ strong {
 #contact .wrapper {
   padding: 100px;
   position: relative;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
   max-width: 95%;
   height: 100%;
   margin: 0 auto;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
   align-items: center;
 }
 
-/* welcome-title */
-#welcome-title .wrapper {
-  padding-top: 100px;
-  padding-bottom: 0;
+/* home */
+#home .wrapper {
+  padding: 100px 0 0;
 }
 
-#welcome-title .wrapper .welcome .social {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
+#home .wrapper .welcome .social {
   display: flex;
   width: 180px;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
-#welcome-title .wrapper .welcome .social a {
+#home .wrapper .welcome .social a {
   color: var(--color-background-support-light);
   text-decoration: none;
 }
 
-#welcome-title .wrapper .welcome .social i {
+#home .wrapper .welcome .social i {
   display: block;
   width: 30px;
   height: 30px;
@@ -401,64 +271,44 @@ strong {
   text-align: center;
   line-height: 30px;
   background-color: var(--color-text-primary-light);
-  -webkit-transition: background-color 0.2s ease-in-out;
   transition: background-color 0.2s ease-in-out;
 }
 
-#welcome-title .wrapper .welcome .social i:hover {
+#home .wrapper .welcome .social i:hover {
   background-color: var(--color-support-light);
 }
 
-#welcome-title header {
+#home header {
   position: absolute;
   left: 50%;
-  -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
   width: 95%;
   height: 80px;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
   align-items: center;
-  -webkit-box-pack: end;
-  -webkit-justify-content: flex-end;
-  -ms-flex-pack: end;
   justify-content: flex-end;
   z-index: 10;
 }
 
-#welcome-title header .nav-toggle {
+#home header .nav-toggle {
   position: relative;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
   width: 80px;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
   align-items: center;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   cursor: pointer;
 }
 
-#welcome-title header .nav-toggle p {
+#home header .nav-toggle p {
   margin-bottom: 0;
   font-size: 14px;
   font-family: "Raleway", Helvetica, sans-serif;
   text-transform: uppercase;
 }
 
-#welcome-title header .nav-toggle span,
-#welcome-title header .nav-toggle span:before,
-#welcome-title header .nav-toggle span:after {
+#home header .nav-toggle span,
+#home header .nav-toggle span:before,
+#home header .nav-toggle span:after {
   content: "";
   position: relative;
   display: block;
@@ -467,47 +317,44 @@ strong {
   background-color: var(--color-text-primary-light);
 }
 
-#welcome-title header .nav-toggle span:before {
+#home header .nav-toggle span:before {
   bottom: 7px;
 }
 
-#welcome-title header .nav-toggle span:after {
+#home header .nav-toggle span:after {
   top: 5px;
 }
 
-#welcome-title .wrapper .welcome {
+#home .wrapper .welcome {
   width: 45%;
 }
 
-#welcome-title .wrapper .welcome:after {
+#home .wrapper .welcome:after {
   content: "";
   display: block;
   width: 1px;
   height: 70px;
 }
 
-#welcome-title .wrapper .welcome h1 {
-  margin-top: 0;
-  margin-bottom: 30px;
+#home .wrapper .welcome h1 {
+  margin: 0 0 30px;
   font-size: 42px;
   font-family: "Raleway", Helvetica, sans-serif;
   font-weight: 100;
 }
 
-#welcome-title .wrapper .welcome p {
+#home .wrapper .welcome p {
   max-width: 450px;
   margin-bottom: 30px;
 }
 
-#welcome-title .wrapper .profile-img {
+#home .wrapper .profile-img {
   width: 55%;
-  -webkit-align-self: flex-end;
-  -ms-flex-item-align: end;
   align-self: flex-end;
   line-height: 0;
 }
 
-#welcome-title .wrapper .profile-img img {
+#home .wrapper .profile-img img {
   width: 100%;
   opacity: 0.95;
 }
@@ -515,16 +362,10 @@ strong {
 /* about */
 #about .wrapper {
   position: relative;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
   max-width: 95%;
   height: 100%;
   margin: 0 auto;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
   align-items: center;
 }
 
@@ -541,8 +382,7 @@ strong {
 }
 
 #about .wrapper .title h2 {
-  margin-top: 0;
-  margin-bottom: 30px;
+  margin: 0 0 30px;
   font-size: 42px;
   font-weight: 100;
 }
@@ -582,15 +422,10 @@ strong {
 
 /* contact */
 #contact .wrapper {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
+  display: flex;
   flex-direction: column;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
   justify-content: center;
+  align-items: center;
 }
 
 #contact .wrapper .title {
@@ -613,18 +448,10 @@ strong {
 
 #contact .wrapper form {
   position: relative;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  max-width: 600px;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
+  max-width: 600px;
   color: var(--color-text-primary-light);
   font-family: "Raleway", Helvetica, sans-serif;
 }
@@ -636,36 +463,11 @@ strong {
   padding: 0 15px;
   border: 1px solid var(--color-text-primary-light);
   border-radius: 0;
-  background: var(--color-transparent);
-}
-
-#contact .wrapper form input[type="email"]::-webkit-input-placeholder,
-#contact .wrapper form input[type="text"]::-webkit-input-placeholder {
-  color: var(--color-text-primary-light);
-}
-
-#contact .wrapper form input[type="email"]::-moz-placeholder,
-#contact .wrapper form input[type="text"]::-moz-placeholder {
-  color: var(--color-text-primary-light);
-}
-
-#contact .wrapper form input[type="email"]:-ms-input-placeholder,
-#contact .wrapper form input[type="text"]:-ms-input-placeholder {
-  color: var(--color-text-primary-light);
 }
 
 #contact .wrapper form input[type="email"]::placeholder,
 #contact .wrapper form input[type="text"]::placeholder {
   color: var(--color-text-primary-light);
-}
-
-#contact .wrapper form input[type="email"]:focus,
-#contact .wrapper form input[type="text"]:focus {
-  outline: none;
-}
-
-#contact .wrapper form input[type="email"]::placeholder,
-#contact .wrapper form input[type="text"]::placeholder {
   text-align: center;
 }
 
@@ -676,33 +478,11 @@ strong {
   padding: 10px 15px;
   border: 1px solid var(--color-text-primary-light);
   border-radius: 0;
-  background: var(--color-transparent);
-  resize: none;
 }
 
 #contact .wrapper form textarea::placeholder {
   padding-top: 30px;
   text-align: center;
-}
-
-#contact .wrapper form textarea::-webkit-input-placeholder {
-  color: var(--color-text-primary-light);
-}
-
-#contact .wrapper form textarea::-moz-placeholder {
-  color: var(--color-text-primary-light);
-}
-
-#contact .wrapper form textarea:-ms-input-placeholder {
-  color: var(--color-text-primary-light);
-}
-
-#contact .wrapper form textarea::placeholder {
-  color: var(--color-text-primary-light);
-}
-
-#contact .wrapper form textarea:focus {
-  outline: none;
 }
 
 #contact .wrapper form input[type="submit"] {
@@ -725,8 +505,7 @@ strong {
   position: absolute;
   bottom: 10px;
   left: 50%;
-  -webkit-transform: translate(-50%);
-  transform: translate(-50%);
+  transform: translateX(-50%);
   margin-bottom: 0;
   font-family: "Raleway", Helvetica, sans-serif;
   font-size: 12px;
@@ -734,11 +513,8 @@ strong {
 
 /* responsive */
 @media (max-width: 1023px) {
-  #about .wrapper .object {
-    display: none;
-  }
-
-  #welcome-title .wrapper .profile-img {
+  #about .wrapper .object,
+  #home .wrapper .profile-img {
     display: none;
   }
 }

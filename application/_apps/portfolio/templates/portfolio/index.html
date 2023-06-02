@@ -6,14 +6,14 @@
 
 {% block content %}
 
-<section id="welcome-title" class="content-container">
+<section id="home" class="content-container">
     <header>
         <div class="nav-toggle">
             <p>Menu</p>
             <span></span>
         </div>
         <ul class="nav">
-            <li><a href="#welcome-title">Home</a></li>
+            <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#education">Education</a></li>
             <li><a href="#projects">Projects</a></li>
@@ -28,14 +28,14 @@
             <h1><strong> {{ first_name }} </strong> Portfolio</h1>
             <p> {{ introduction }} </p>
             <div class="social">
-                <a href="{{ facebook_link }}" target="_blank"><i class="icon-facebook"></i></a>
-                <a href="{{ github_link }}" target="_blank"><i class="icon-pinterest-p"></i></a>
-                <a href="#" target="_blank"><i class="icon-instagram"></i></a>
-                <a href="#" target="_blank"><i class="icon-twitter"></i></a>
+                <a href="{{ facebook_link }}" target="_blank" draggable="false"><i class="icon-facebook"></i></a>
+                <a href="{{ github_link }}" target="_blank" draggable="false"><i class="icon-pinterest-p"></i></a>
+                <a href="#" target="_blank" draggable="false"><i class="icon-instagram"></i></a>
+                <a href="#" target="_blank" draggable="false"><i class="icon-twitter"></i></a>
             </div>
         </div>
         <div class="profile-img">
-            <img src="{% static 'img/profile-img.png' %}" alt="Joemar" />
+            <img src="{% static 'img/profile-img.png' %}" alt="Joemar" draggable="false" />
         </div>
     </div>
 </section>
@@ -45,7 +45,7 @@
 <section id="about" class="content-container">
     <div class="wrapper">
         <div class="object">
-            <img src="{% static 'img/object.png' %}" alt="Camera" />
+            <img src="{% static 'img/object.png' %}" alt="Camera" draggable="false" />
         </div>
         <div class="title">
             <h2>My name is<strong> {{ full_name }} </strong></h2>
