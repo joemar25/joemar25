@@ -4,10 +4,24 @@
 </h2>
 
 <p align="center">
+  <a href="https://mar-tic-tac-toe.onrender.com/">
+    <strong>Play My TicTacToe using JS</strong>
+  </a>
+  
+  <br>
+  
+  <a href="https://adrian-joemar-ojt-blogs.onrender.com/">
+    <strong>The OJT Blog Website I made with my friend.</strong>
+  </a>
+</p>
+
+<!--
+<p align="center">
   <a href="https://www.instagram.com/reel/Ct88n93OsqL/?utm_source=ig_web_button_share_sheet&igshid=MzRlODBiNWFlZA== "Motivational Video"">
     <strong>Motivational Video - Watch Here</strong>
   </a>
 </p>
+--->
 
 <!-- Typing SVG by DenverCoder1 - https://github.com/DenverCoder1/readme-typing-svg -->
 <p align="center">
