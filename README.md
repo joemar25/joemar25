@@ -3,6 +3,8 @@
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28">
 </h2>
 
+Please help me by clicking the star button on each of my repositories.
+
 <p align="center">
   <a href="https://mar-tic-tac-toe.onrender.com/">
     <strong>Play My TicTacToe using JS</strong>
