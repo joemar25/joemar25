@@ -16,9 +16,13 @@ Please help me by clicking the star button on each of my repositories.
     <strong>The OJT Blog Website I made with my friend.</strong>
   </a>
   
+  <br>
+  
   <a href="joemar25.github.io/fcb-portfolio/">
     <strong>A project we did in the bootcamp for ZUITT.</strong>
   </a>
+  
+  <br>
   
   <a href="https://mar-custom-django-template.onrender.com/">
     <strong>My own Django Template</strong>
