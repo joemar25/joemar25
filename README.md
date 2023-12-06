@@ -27,6 +27,18 @@ Please help me by clicking the star button on each of my repositories.
   <a href="https://mar-custom-django-template.onrender.com/">
     <strong>My own Django Template</strong>
   </a>
+  
+  <a href="https://joemar-j-cardio-portfoliovnyr8ov9ho.codedesign.app/">
+    <strong>My Portfolio Website using AI</strong>
+  </a>
+  
+  <a href="https://joemar-j-cardio-portfoliovnyr8ov9ho.codedesign.app/">
+    <strong>My Portfolio Website using AI</strong>
+  </a>
+  
+  <a href="https://dev-mar-portfolio-web.pantheonsite.io/">
+    <strong>My Portfolio Website using Wordpress and Hosting it using Pantheon</strong>
+  </a>
 </p>
 
 <!--
