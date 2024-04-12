@@ -3,7 +3,7 @@
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28">
 </h2>
 
-Please help me by clicking the star button on each of my repositories.
+Please help me by clicking the star button on each of my repositories. At least maka 16 lang ako sa isa. Thank Youuu....
 
 <p align="center">
   <a href="https://mar-tic-tac-toe.onrender.com/">
