@@ -45,13 +45,11 @@ Please help me by clicking the star button on each of my repositories. At least 
   </a>
 </p>
 
-<!--
 <p align="center">
   <a href="https://www.instagram.com/reel/Ct88n93OsqL/?utm_source=ig_web_button_share_sheet&igshid=MzRlODBiNWFlZA== "Motivational Video"">
     <strong>Motivational Video - Watch Here</strong>
   </a>
 </p>
---->
 
 <!-- Typing SVG by DenverCoder1 - https://github.com/DenverCoder1/readme-typing-svg -->
 <p align="center">
