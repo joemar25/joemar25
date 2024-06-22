@@ -1,3 +1,5 @@
+<img src='https://static0.gamerantimages.com/wordpress/wp-content/uploads/2022/06/Red-Dead-Redemption-2-Key-Art-Cropped.jpg?q=50&fit=contain&w=1140&h=&dpr=1.5'>
+
 <h2 align="center">
   Welcome to Joemar's Profile! 🚀
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28">
