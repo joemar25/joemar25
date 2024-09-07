@@ -5,6 +5,8 @@
 </h2>
 <p align="center">Please help me by clicking the star button on each of my repositories. At least maka 16 lang ako sa isa. Thank Youuu....</p>
 <p align="center">
+  <a href="https://fafacologne.wordpress.com/"><strong>SHS Wordpress Project</strong></a>
+  <br>
   <a href="https://mar-tic-tac-toe.onrender.com/"><strong>Play My TicTacToe using JS</strong></a>
   <br>
   <a href="https://adrian-joemar-ojt-blogs.onrender.com/"><strong>The OJT Blog Website I made with my friend.</strong></a>
