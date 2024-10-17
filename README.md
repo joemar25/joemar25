@@ -1,11 +1,11 @@
+<img  height="500" width="1000" align="center" src="https://64.media.tumblr.com/21662d0c029e877d79c9c6f768165bc9/44528f76b4bcd124-64/s500x750/3727e9126b5cea9c7fcfdaf19c0d32400149bc50.gif">
+<h1 align="center">Hi 👋, I'm Joemar 🚀</h1>
+<h3 align="center">A passionate Software Engineer</h3>
 <img  height="350" align="right" src="https://mir-s3-cdn-cf.behance.net/project_modules/hd/7d239486126039.5d908668ad9ef.jpg">
 
-<h2 align="center">
-  Welcome to Joemar's Profile! 🚀
-  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28">
-</h2>
-<p align="center">Please help me by clicking the star button on each of my repositories. At least maka 16 lang ako sa isa. Thank Youuu....</p>
-<p align="center">
+<p align="left">Please help me by clicking the star button on each of my repositories.</p>
+
+<p align="left">
   <a href="https://fafacologne.wordpress.com/"><strong>SHS Wordpress Project</strong></a>
   <br>
   <a href="https://mar-tic-tac-toe.onrender.com/"><strong>Play My TicTacToe using JS</strong></a>
@@ -20,24 +20,13 @@
   <br>
   <a href="https://dev-mar-portfolio-web.pantheonsite.io/"><strong>My Portfolio Website using WordPress and Hosting it using Pantheon</strong></a>
 </p>
-<p align="center">
-  <a href="https://www.instagram.com/reel/Ct88n93OsqL/?utm_source=ig_web_button_share_sheet&igshid=MzRlODBiNWFlZA== "Motivational Video""><strong>Motivational Video - Watch Here</strong></a>
-</p>
-<p align="center">
-  <a href="https://github.com/DenverCoder1/readme-typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Source+Serif+Pro&size=30&duration=3000&pause=1000&color=00DA22&center=true&vCenter=true&width=435&lines=SELECT+*+FROM+'World';+WHERE+'Someone'+LIKE+'%25You%25'">
-  </a>
-</p>
-<h4 align="center">👨‍💻 A Computer Science (BSCS) student passionate about learning and acquiring new skills with practical applications. ✨</h4>
-<!-- Social icons section -->
-<p align="center">
-  <a href="https://www.youtube.com/channel/UC_PvJQ6t_qSA4V5kA8tWFgw"><img width="32px" alt="Youtube" title="Youtube" src="https://i.imgur.com/qiXu7b2.png"/></a>
-  &#8287;&#8287;&#8287;&#8287;&#8287;
-  <a href="https://twitter.com/your-twitter-handle"><img width="32px" alt="Twitter" title="Twitter" src="https://i.imgur.com/OXZM1L6.png"/></a>
-  &#8287;&#8287;&#8287;&#8287;&#8287;
-  <a href="https://discord.gg/your-discord-invite"><img width="32px" alt="Discord" title="Dev Pro Tips Discussion & Support Server" src="https://i.imgur.com/OViZO8J.png"/></a>
-  &#8287;&#8287;&#8287;&#8287;&#8287;
-</p>
+
+<hr/>
+
+<a href="https://github.com/DenverCoder1/readme-typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Source+Serif+Pro&size=30&duration=3000&pause=1000&color=00DA22&center=true&vCenter=true&width=435&lines=SELECT+*+FROM+'World';+WHERE+'Someone'+LIKE+'%25You%25'">
+</a>
+
 <hr/>
 <h3 align="center">🛠️ Languages and Tools:</h3>
 <p align="center">
