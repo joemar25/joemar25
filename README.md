@@ -1,4 +1,3 @@
-<img  height="500" width="1000" align="center" src="https://64.media.tumblr.com/21662d0c029e877d79c9c6f768165bc9/44528f76b4bcd124-64/s500x750/3727e9126b5cea9c7fcfdaf19c0d32400149bc50.gif">
 <h1 align="center">Hi 👋, I'm Joemar 🚀</h1>
 <h3 align="center">A passionate Software Engineer</h3>
 <img  height="350" align="right" src="https://mir-s3-cdn-cf.behance.net/project_modules/hd/7d239486126039.5d908668ad9ef.jpg">
