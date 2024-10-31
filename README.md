@@ -5,17 +5,24 @@
 <p align="left">Please help me by clicking the star button on each of my repositories.</p>
 
 <p align="left">
-  <a href="https://fafacologne.wordpress.com/"><strong>SHS Wordpress Project</strong></a>
+  
+  <!----
+  
+  <a href="https://fafacologne.wordpress.com/"><strong>SHS Wordpress Project</strong></a>  
+  
   <br>
+  
+  --->
+  
   <a href="https://mar-tic-tac-toe.onrender.com/"><strong>Play My TicTacToe using JS</strong></a>
   <br>
   <a href="https://adrian-joemar-ojt-blogs.onrender.com/"><strong>The OJT Blog Website I made with my friend.</strong></a>
   <br>
   <a href="https://joemar25.github.io/fcb-portfolio/"><strong>A project we did in the bootcamp for ZUITT.</strong></a>
   <br>
-  <a href="https://mar-custom-django-template.onrender.com/"><strong>My own Django Template</strong></a>
+  <a href="https://mar-custom-django-template.onrender.com/"><strong>My own Django Project Template</strong></a>
   <br>
-  <a href="https://joemar-j-cardio-portfoliovnyr8ov9ho.codedesign.app/"><strong>My Portfolio Website using AI</strong></a>
+  <a href="https://joemar-j-cardio-portfoliovnyr8ov9ho.codedesign.app/"><strong>My AI Generated Portfolio Website</strong></a>
   <br>
   <a href="https://dev-mar-portfolio-web.pantheonsite.io/"><strong>My Portfolio Website using WordPress and Hosting it using Pantheon</strong></a>
 </p>
