@@ -2,7 +2,9 @@
 <h3 align="center">A passionate Software Engineer</h3>
 <img  height="350" align="right" src="https://mir-s3-cdn-cf.behance.net/project_modules/hd/7d239486126039.5d908668ad9ef.jpg">
 
-<p align="left">Please help me by clicking the star button on each of my repositories.</p>
+<!----
+  <p align="left">Please help me by clicking the star button on each of my repositories.</p>
+--->
 
 <p align="left">
   
@@ -23,8 +25,16 @@
   <a href="https://mar-custom-django-template.onrender.com/"><strong>My own Django Project Template</strong></a>
   <br>
   <a href="https://joemar-j-cardio-portfoliovnyr8ov9ho.codedesign.app/"><strong>My AI Generated Portfolio Website</strong></a>
+  
+  <!---
+  
   <br>
+  
   <a href="https://dev-mar-portfolio-web.pantheonsite.io/"><strong>My Portfolio Website using WordPress and Hosting it using Pantheon</strong></a>
+   
+  <br>
+  
+  --->
 </p>
 
 <hr/>
