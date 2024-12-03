@@ -21,7 +21,7 @@
 
 <img height="350" align="right" src="https://mir-s3-cdn-cf.behance.net/project_modules/hd/7d239486126039.5d908668ad9ef.jpg">
 
-- [**Future Project Dashboard**](https://ipoipophil.vercel.app/)
+- [**Future Project Dashboard**]() [not available)
   - NextJs Framework
   - Using good practices in coding
   - Using UI libraries to make things professionally
