@@ -21,7 +21,7 @@
 
 <img height="350" align="right" src="https://mir-s3-cdn-cf.behance.net/project_modules/hd/7d239486126039.5d908668ad9ef.jpg">
 
-- [**Github Followers Checker**](github-followers-checker.vercel.app)
+- [**Github Followers Checker**](https://github-followers-checker.vercel.app/)
   - NextJs Framework
   - Using OAuth Github Provider
   - Using UI libraries to make things professionally
