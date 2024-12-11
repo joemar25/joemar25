@@ -26,6 +26,12 @@
   - Using OAuth Github Provider
   - Using UI libraries to make things professionally
 
+- [**Entropy**](https://entropy-ur8n.vercel.app/)
+  - For IOT Visualization
+  - For Testing use -> test
+  - Responsive layout
+  - Device IOT sensor visualization
+    
 - [**AI-Generated Portfolio**](https://joemar-j-cardio-portfoliovnyr8ov9ho.codedesign.app/)
   - Modern tech stack implementation
   - AI-powered features
