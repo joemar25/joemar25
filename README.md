@@ -238,5 +238,5 @@
 <p align="center">© 2024 Joemar Cardiño. All rights reserved.</p>
 
 <img src="https://github.com/jrohitofficial/jrohitofficial/blob/master/line-neon.gif" width="100%">
+Bm3VFd/V0GUpQrNp9WEwnx7JNNL6KhvKSsjHW0yXIdo=
 
-https://drive.google.com/file/d/1zi7V5OsWWbEXzapoZucIwF7KCvOt7paf/view?usp=sharing
