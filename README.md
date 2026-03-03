@@ -57,6 +57,10 @@
   - Bootcamp project showcase
   - Responsive layout
 
+- [**Animal Guesser**](https://mar-guess-the-animals.onrender.com/)
+  - Test guessing of animals through the random characters
+  - Has view of the animal name just incase - this is an old project
+
 ## 🛠️ Languages and Tools
 
 <table align="center">
