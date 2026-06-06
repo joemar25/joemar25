@@ -26,7 +26,7 @@
   - Using OAuth Github Provider
   - Using UI libraries to make things professionally
 
-- [**Entropy**](https://entropy-ur8n.vercel.app/)
+- [**Entropy**](https://entropy-airquant.vercel.app/)
   - For IOT Visualization
   - For Testing use -> test
   - Responsive layout
