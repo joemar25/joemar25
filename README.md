@@ -62,7 +62,7 @@
 
 - [**Animal Guesser**](https://mar-guess-the-animals.onrender.com/)
   - Test guessing of animals through the random characters
-  - Has view of the animal name just incase - this is an old project
+  - Have fun.
 
 ## 🛠️ Languages and Tools
 
