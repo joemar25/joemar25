@@ -62,7 +62,11 @@
 
 - [**Animal Guesser**](https://mar-guess-the-animals.onrender.com/)
   - Test guessing of animals through the random characters
-  - Have fun.
+  - Have fun
+
+- [**Alis Go**](https://alis-go.vercel.app/)
+  - Integration of crypto wallet Phantotm to NextJs
+  - Frontend and login of wallet only
 
 ## 🛠️ Languages and Tools
 
